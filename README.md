@@ -5,4 +5,4 @@ Responsive design ensures that web applications render well on a variety of devi
 https://meriem055.github.io/Responsive-Portfolio/
 
 # Mockup:
-
+![Alt Text]https://meriem055.github.io/Responsive-Portfolio/

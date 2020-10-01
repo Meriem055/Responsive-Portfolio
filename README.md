@@ -1,7 +1,9 @@
 # Responsive-Portfolio
 Responsive design ensures that web applications render well on a variety of devices and window or screen sizes.
 
-Website created shares my story, pictures & contact form
+This project uses the Bootstrap CSS Framework to create a mobile responsive portfolio.
+
+You also get to discover my story, my moroccan snapshots and say hello!
 
 # Link to website:
 https://meriem055.github.io/Responsive-Portfolio/

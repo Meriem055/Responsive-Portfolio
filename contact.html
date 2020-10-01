@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>contact page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+<style>
+
+ /* background image */ 
+
+  body {
+  background-image: url("https://images.unsplash.com/photo-1516541196182-6bdb0516ed27?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60")
+  
+  }
+
+/* images standard size */ 
+  .col-sm-6 img {
+    height: 350px;
+    margin-bottom: 10px;
+   }
+
+/* Sticky footer style */ 
+
+   footer {
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(247, 239, 239);
+   color: rgb(73, 70, 70);
+   text-align: center;
+}
+
+.col-sm-5 div {
+    margin-bottom: 10px;
+   }
+
+</style>
+</head>
+
+<body>
+
+   <!-- Container Div -->
+   <div class="container">
+
+    <!-- Section 1: Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+      <!-- Nav section with my name -->
+      <a class="navbar-brand" href="#">Meriem Aanitra</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapsible button -->
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+        
+          <!-- The links of our navbar -->
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">My story<span class="sr-only"></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only"></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html">Contact<span class="sr-only"></a>
+          </li>
+
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+        <!-- Jumbotron element -->
+        <div class="jumbotron">
+
+            <!-- centered text -->
+            <h1 class="text-center"><strong>Say Hello!</strong></h1>
+
+          </div>
+      
+<!-- Form to collect user information (Name, email address, message) -->
+
+    <div class="container">
+    <div class="row">
+    <div class="col-sm-5">
+    <form>
+        <div class="form-group">
+          <label for="exampleInputName">Name</label>
+          <input type="name" class="form-control" id="exampleInputName" aria-describedby="name">
+         
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Message</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      </div>
+
+
+<footer>
+  <h6> &copy; 2020 Bootcamp project</h6>
+</footer>
+    
+<!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  
+</body>
+
+</html>
